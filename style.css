@@ -1,0 +1,39 @@
+ body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: transparent;
+            color: aliceblue;
+        }
+
+        .D1 {
+            background-image: url("https://superblog.supercdn.cloud/site_cuid_clr6oh1no0006rmr89yhkxgu8/images/image-41-3-1712752581555-compressed.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .D2 {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKrpAaQwD6hIykKZp4G7IU_wTpWYm-uS0ZBA&s");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .D3 {
+            background-image: url("  https://cdn.prod.website-files.com/620e4101b2ce12a1a6bff0e8/65e80f722774b7ae68fbecdb_samantha-gades-fIHozNWfcvs-unsplash%20(1).jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }

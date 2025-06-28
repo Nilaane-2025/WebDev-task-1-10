@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http -equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-7</title>
+    <style>
+        * {
+            background-color: rgb(133, 218, 145);
+        }
+
+        form {
+
+            align-items: center;
+        }
+
+        button {
+            background-color: aliceblue;
+        }
+
+        table {
+            background-color: aliceblue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Fill the form!</h1>
+    <form>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Parameters</th>
+                    <th>Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td> <input type="text" id="name" name="name" placeholder="Enter your name"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="age">Age:</label></td>
+                    <td> <input type="number" id="age" name="age" placeholder="Enter your age"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="designation">Designation:</label></td>
+                    <td> <select id="designation" name="designation">
+                            <option value="" selected disabled>--select--</option>
+                            <option value="Software Engineer">Software Engineer</option>
+                            <option value="Data Scientist">Data Scientist</option>
+                            <option vlaue="Human Resource Manager">Human Resource Manager</option>
+                            <option value="Marketing Manager">Marketing Manager</option>
+                            <option value="Other">Other</option>
+                        </select></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="Other">Enter the role if u chose other:</label></td>
+                    <td> <input type="text" id="Other" name="designation" placeholder="Enter your designation"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="email">Email:</label></label></td>
+                    <td> <input type="email" id="email" name="email" placeholder="Enter your email"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="pwd">Password:</label></label></td>
+                    <td> <input type="password" id="pwd" name="pwd" placeholder="Enter your password"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="DOB">Date Of Birth:</label></td>
+                    <td> <input type="date" id="DOB" name="DOB" placeholder="Enter your DOB"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <br>
+    <label for="Submit">Date Of Birth:</label>
+    <button id="Submit">Submit!</button>
+</body>
+
+</html>
